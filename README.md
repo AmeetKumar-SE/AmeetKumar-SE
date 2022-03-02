@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Module 2 solution </title>
+    <!-- Bootstrap min css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-You can use the [editor on GitHub](https://github.com/AmeetKumar-SE/WEB/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    <h1> Our Menu </h1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="p-section">
+                <h4 class="backgroud-1">
+                    Chicken
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
+                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
+                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
+                    Etiam vulputate at ante id cursus.
+                </p>
+            </div>
 
-```markdown
-Syntax highlighted code block
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <div class="col-md-4 col-sm-6">
+            <div class="p-section">
+                <h4 class="backgroud-2">
+                    Beef
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
+                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
+                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
+                    Etiam vulputate at ante id cursus.
+                </p>
+            </div>
+        </div>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmeetKumar-SE/WEB/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <div class="col-md-4 col-sm-12">
+            <div class="p-section">
+                <h4 class="backgroud-3">
+                    Sushi
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
+                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
+                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
+                    Etiam vulputate at ante id cursus.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
